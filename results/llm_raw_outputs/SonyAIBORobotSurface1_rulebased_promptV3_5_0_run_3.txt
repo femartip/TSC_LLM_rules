@@ -1,0 +1,139 @@
+dataset: SonyAIBORobotSurface1
+mode: rulebased
+classifier: miniRocket
+llm: gpt-5.1
+k: 5
+rules: 0
+repetition: 3
+
+=== Rule Generation Response ===
+Class 0:
+R1: Early region shows a sharp upward peak above about 0.7 followed quickly by a steep drop below about 0.3.
+R2: Middle region forms a mid-level plateau around 0.4–0.6 with a single dominant peak near the series center.
+R3: Late region dips to a trough near 0.1 around three-quarters of the series, then ends with a rising tail back toward 0.4–0.6.
+
+Class 1:
+R1: Early region also shows a sharp peak above about 0.7 followed quickly by a drop below about 0.3; no consistent difference from class 0 in this segment.
+R2: Middle region has the same mid-level plateau around 0.4–0.6 with one dominant central peak; prototypes do not show a clear offset versus class 0.
+R3: Late region again has a trough near 0.1 followed by a rising tail toward 0.4–0.6; no stable discriminative pattern is visible between classes in the provided prototypes.
+
+=== Classification Batch start=0 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=10 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=20 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=30 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=40 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=50 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=60 size=10 ===
+Predicted class: Class 0
+Predicted class: Class 0
+Predicted class: Class 0
+Predicted class: Class 0
+Predicted class: Class 0
+Predicted class: Class 0
+Predicted class: Class 0
+Predicted class: Class 0
+Predicted class: Class 0
+Predicted class: Class 0
+
+=== Classification Batch start=70 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=80 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=90 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+

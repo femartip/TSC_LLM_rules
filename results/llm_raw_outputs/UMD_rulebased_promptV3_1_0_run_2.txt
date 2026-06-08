@@ -1,0 +1,140 @@
+dataset: UMD
+mode: rulebased
+classifier: miniRocket
+llm: gpt-5.1
+k: 1
+rules: 0
+repetition: 2
+
+=== Rule Generation Response ===
+Class 0:
+R1: Middle segment forms a broad low plateau, with its average at least 0.2 lower than both early and late segment averages.
+R2: Late segment contains an isolated upward peak that rises at least 0.2 above the surrounding late plateau.
+
+Class 1:
+R1: Middle segment forms a broad high plateau, with its average at least 0.2 higher than both early and late segment averages.
+
+Class 2:
+R1: Middle segment forms a broad low plateau, with its average at least 0.2 lower than both early and late segment averages.
+R2: Late segment contains an isolated downward trough that drops at least 0.2 below the surrounding late plateau, close to the middle-segment minimum.
+
+=== Classification Batch start=0 size=10 ===
+Predicted class: 1
+Predicted class: 2
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 0
+Predicted class: 2
+Predicted class: 1
+
+=== Classification Batch start=10 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+
+=== Classification Batch start=20 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 2
+Predicted class: 2
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=30 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=40 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 2
+Predicted class: 1
+
+=== Classification Batch start=50 size=10 ===
+Predicted class: 2
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=60 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 2
+Predicted class: 2
+Predicted class: 1
+Predicted class: 2
+Predicted class: 1
+Predicted class: 2
+
+=== Classification Batch start=70 size=10 ===
+Predicted class: 0
+Predicted class: 1
+Predicted class: 2
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=80 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 2
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=90 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 2
+Predicted class: 1
+Predicted class: 1
+Predicted class: 2
+Predicted class: 0
+Predicted class: 1
+Predicted class: 2
+Predicted class: 2
+

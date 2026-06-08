@@ -1,0 +1,137 @@
+dataset: ECG200
+mode: rulebased
+classifier: miniRocket
+llm: gpt-5.1
+k: 1
+rules: 0
+repetition: 2
+
+=== Rule Generation Response ===
+Class 0:
+R1: The overall maximum value stays below 0.8.
+R2: After the mid-series minimum, the late region forms a broad, nearly flat plateau with only small oscillations and no clear downward tail.
+
+Class 1:
+R1: The series shows a very high early spike, with its maximum value above 0.8 in the early region.
+R2: After the mid-series rise, the late region has a gentle but consistent downward trend toward the end.
+
+=== Classification Batch start=0 size=10 ===
+Predicted class: Class 1
+Predicted class: Class 0
+Predicted class: Class 1
+Predicted class: Class 1
+Predicted class: Class 0
+Predicted class: Class 1
+Predicted class: Class 1
+Predicted class: Class 1
+Predicted class: Class 1
+Predicted class: Class 1
+
+=== Classification Batch start=10 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=20 size=10 ===
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=30 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=40 size=10 ===
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=50 size=10 ===
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 0
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+
+=== Classification Batch start=60 size=10 ===
+Predicted class: 0
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+
+=== Classification Batch start=70 size=10 ===
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+
+=== Classification Batch start=80 size=10 ===
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+Predicted class: 1
+Predicted class: 0
+Predicted class: 0
+
+=== Classification Batch start=90 size=10 ===
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 0
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 1
+Predicted class: 0
+

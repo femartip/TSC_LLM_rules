@@ -179,8 +179,18 @@ def build_classification_prompt(rule: str, test_samples: list[str]):
         Instructions:
         - Follow the rule strictly.
         - Do not invent new criteria.
-        - Provide the final classification for each of the {num_samples} instances.
+        - The labels you output must come only from the class labels given in the ruleset.
+        - Do not add bullets, numbering.
+        - Do not include explanations, uncertainty, or alternative class labels.
+        - If uncertain, still choose the best class.
+        - The output must contain exactly {num_samples} lines, in the same order as the images.
         - For each prediction, use the exact format: 'Predicted class: X'
+        - X must be one of the allowed labels from the ruleset.
+
+        Examples of valid lines:
+        Predicted class: 0
+        Predicted class: 1
+        Predicted class: 2
         """}
         ]
 
